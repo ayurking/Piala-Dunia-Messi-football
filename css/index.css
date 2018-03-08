@@ -1,0 +1,43 @@
+html{
+    font-size: 10px;
+}
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", Helvetica, sans-serif, Arial;
+}
+.offline-div{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #666666;
+    font-size: 1.6rem;
+    text-align: center;
+    background: #ffffff;
+    z-index: 999;
+}
+.offline-div img{
+    width: 12rem;
+    margin-top: 15rem;
+}
+.offline-div p:nth-of-type(1){
+    color: #cccccc;
+    font-size: 1.4rem;
+}
+.offline-div p:nth-of-type(2){
+    margin: 1rem 0 2rem 0;
+}
+.offline-div button{
+    width: 8rem;
+    height: 3.5rem;
+    color: #858585;
+    font-size: 1.5rem;
+    background: #ffffff;
+    border: 1px solid #666666;
+    border-radius: 3px;
+    outline: none;
+}
